@@ -1,0 +1,100 @@
+  /* positions where the content is on the start page*/
+.start-page {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  /* hides certain sections till the js allows it to be visible*/
+  .hide {
+    display: none;
+  }
+  
+  /* positions the score*/
+  .scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  /* positions the timer */
+  .time { 
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  /* centers h2 */
+  .h2 {
+    text-align: center;
+  }
+
+
+/* centers and adjust the font on id question*/
+#question {
+    text-align: center;
+    font-size: 300%;
+}
+
+/* centers and adjust the font on id quiz-submit*/
+#quiz-submit {
+    text-align: center;
+    font-size: 20px;
+  }
+
+
+
+/* centers and adjust the font on id highscore*/
+#highscore {
+    text-align: center;
+    font-size: 20px;
+    list-style-position: inside;
+
+}
+
+
+
+  
+/* Allows for customization of the button*/
+  button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 150%;
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+}
+
+/* increase the width of the answer options during the question section */
+.btn {
+    width: 100%;
+}
+
+
+
+button:hover {
+    background-color: #007070; /* Changes the button color to a hover color */
+}
+
+  ul {
+    list-style: none;
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+    text-align: center;
+
+}
+
+.correct {
+    color: green;  
+    font-size: 60px;
+}
+
+.incorrect {
+    color: red;  
+    font-size: 60px; 
+}
+
+
