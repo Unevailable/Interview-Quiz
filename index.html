@@ -3,46 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Interview Quiz</title>
 </head>
 <body>
 
+    <!-- lets you go to the scoreboard -->
+    <button id="highscore-page"> View Highscores</button>  
+
+    <!-- code for the start of the page -->
     <header class="start-page">
-    <h1>Coding Quiz Challenge</h1>
-    <p>
-       Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds! 
-    </p>
-    <button id="start">Start</button>      
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+            Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+        </p>
+        <button id="start">Start</button>      
     </header>
 
-    <section class="question-scream">
-        <h2> Question </h2>
-            <ul>
-                <li><button class="btn"> Answer 1</button></li>
-                <li><button class="btn"> Answer 2</button></li>
-                <li><button class="btn"> Answer 3</button></li>
-                <li><button class="btn"> Answer 4</button></li>
-            </ul>
-
+    <!-- code for the question section -->
+    <section id="question-screen" class="hide">
+        <h2 id="question"> Question </h2>
+        <p id="timer" class="time">Time: 75s</p>
+        <ul>
+            <li><button class="btn"> Answer 1</button></li>
+            <li><button class="btn"> Answer 2</button></li>
+            <li><button class="btn"> Answer 3</button></li>
+            <li><button class="btn"> Answer 4</button></li>
+        </ul>
     </section>
 
-    <section class= "quiz-submit">
+    <!-- code for the submit section of the page-->
+    <section id="quiz-submit" class="hide">
         <h2> Quiz Finished!</h2>
-        <p> Score: </p>
+        <p id="quiz-submit-score"> Score: </p>
         <section>
             <label for="">Enter Initials:</label>
             <input type="text">
-            <button class="Submit">Submit</button>
+            <button id="submit">Submit</button>
         </section>
+    </section>    
 
-        <section class="Highscores-board">
-            <ol id="highscores"></ol>
-            <button id="clear">Clear Highscores</button>  
-            <button id="Go-Back">Go Back</button>  
-        </section>
-
+    <!-- allow useres to see their score on this part of the page-->
+    <section id="highscore" class="hide">
+        <h2>Highscores</h2>
+        <ol id="score">
+        </ol>
+        <button id="clear">Clear Highscores</button>  
+        <button id="Go-Back">Go Back</button>  
     </section>
 
-    
+    <script src="./assets/js/script.js"></script>   
 </body>
 </html>
