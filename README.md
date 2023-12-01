@@ -15,17 +15,17 @@
 
 ## Credits
 
-w3schools
-Xpert Learning Assistant 
-https://www.javatpoint.com/javascript-mcq
-https://www.interviewbit.com/javascript-mcq/
-Youtube
-Reddit
-Stack Overflow
-Classmates
+w3schools,
+Xpert Learning Assistant, 
+https://www.javatpoint.com/javascript-mcq,
+https://www.interviewbit.com/javascript-mcq/,
+Youtube,
+Reddit,
+Stack Overflow,
+Classmates,
 
 ## Website 
-![Website](https://unevailable.github.io/Interview-Quiz/)
+https://unevailable.github.io/Interview-Quiz/
 ![Preview of the start of the webpage](./assets/images/start.PNG)
 ![Preview of a question answered correctly](./assets/images/correct.PNG)
 ![Preview of a question answered incorrectly](./assets/images/incorrect.PNG)
